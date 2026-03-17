@@ -1,0 +1,45 @@
+:root {
+}
+
+.panel {
+    background-color: rgba(2, 2, 2, 0.05);
+}
+
+.hide {
+    display: none;
+}
+
+.vboxCont {
+    left: 40%;
+    align-items: stretch;
+    background-color: rgb(43, 48, 39);
+    right: 40%;
+    position: absolute;
+}
+
+.diyarButton {
+    -unity-font-definition: url("project://database/Assets/UI/Baskerville%20Bold%20Italic.ttf?fileID=12800000&guid=246937c963ea7d74d8fd53073032ea2a&type=3#Baskerville Bold Italic");
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.21);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-bottom-width: 0;
+}
+
+.diyarButton:hover {
+    font-size: 28px;
+    -unity-font-definition: url("project://database/Assets/UI/Baskerville%20Bold%20Italic.ttf?fileID=12800000&guid=246937c963ea7d74d8fd53073032ea2a&type=3#Baskerville Bold Italic");
+    scale: 1.1 1.1 1.1;
+    rotate: 10deg;
+    transition-duration: 0.2s;
+}
+
+.leftHover:hover {
+    rotate: -10deg;
+    transition-duration: 0.2s;
+}
+
+.leftHover {
+}

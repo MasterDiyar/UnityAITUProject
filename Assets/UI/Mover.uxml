@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/NewMover.uss?fileID=7433441132597879392&amp;guid=e1bfff432f8d15447a98f04f832f0937&amp;type=3#NewMover"/>
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="VisualElement" class="planet" style="flex-grow: 1; position: relative; width: 40%; height: 20%; bottom: 0; top: auto; margin-top: 40px; margin-right: 30%; margin-bottom: 0; margin-left: 30%; padding-top: 30%; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; left: auto; right: auto; background-color: rgba(0, 0, 0, 0); align-content: flex-start; align-self: flex-end; align-items: flex-end; justify-content: center; flex-direction: row;">
+            <ui:GroupBox style="margin-right: 0;">
+                <ui:Button text="Solga&#10;" name="left"/>
+            </ui:GroupBox>
+            <ui:GroupBox style="margin-right: 0; margin-left: 0; padding-left: 0;">
+                <ui:Button text="Alga" name="up" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-2236324273849735119&amp;guid=ef4e4d5a9b0926b43a8d646a50b1ace1&amp;type=3#arrow-up&quot;);"/>
+                <ui:Button text="Artka&#10;" name="down"/>
+            </ui:GroupBox>
+            <ui:GroupBox style="margin-left: 0; margin-right: 0; padding-left: 0;">
+                <ui:Button text="Onga&#10;" name="right"/>
+            </ui:GroupBox>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

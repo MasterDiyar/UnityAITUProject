@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Menu.uss?fileID=7433441132597879392&amp;guid=38a06a499f722df4a8498e479b625db7&amp;type=3#Menu"/>
+    <Style src="project://database/Assets/UI/Mover.uss?fileID=7433441132597879392&amp;guid=0867420b1e3e6b843ad6f33af41fa34e&amp;type=3#Mover"/>
+    <ui:VisualElement name="Panel" class="panel" style="flex-grow: 1;">
+        <ui:VisualElement name="VisualElement" class="vboxCont" style="flex-grow: 1; top: 20%; left: 5%; right: 82%; background-color: rgba(43, 48, 39, 0); bottom: 40%; justify-content: space-evenly;">
+            <ui:Button text="Play&#10;" name="Play" class="diyarButton"/>
+            <ui:Button text="Settings&#10;" name="Settings" class="diyarButton leftHover"/>
+            <ui:Button text="Exit&#10;" name="Exit" class="diyarButton"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
