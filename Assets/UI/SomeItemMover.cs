@@ -12,8 +12,6 @@ public class SomeItemMover : MonoBehaviour
     void Awake()
     {
         ui = GetComponent<UIDocument>().rootVisualElement;
-        
-        
     }
 
     void OnEnable()
